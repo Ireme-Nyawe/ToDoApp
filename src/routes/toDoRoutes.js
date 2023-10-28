@@ -1,6 +1,7 @@
 import express from "express";
 import { deleteTask, getAllTasks, getTaskOnDuration, postTask, updateTask } from "../controller/toDoController";
 
+
 const routeTask = express.Router();
 
 routeTask.get("/getToDoList/", getAllTasks);
